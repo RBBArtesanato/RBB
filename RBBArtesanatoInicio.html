@@ -16,11 +16,11 @@ body {
 	
 .menu {
 	color: #345474;
-	font-size: 14px;
+	font-size: 20px;
 	list-style:none;
 	border:2px solid #000000;
 	background-color: #345474;
-	width:150px; height:155px;
+	width:200px; height:200px;
 	padding:5px;
 	border-radius:20px;
 }
@@ -31,7 +31,7 @@ body {
 	border-top:1px solid #000000;
 	background-color:#345474;
 	color: #edcb30;
-	width:150px;
+	width:200px;
 	float:left;
 	border-radius:20px;
 }
@@ -41,8 +41,8 @@ body {
 	background-color:#345474;
 	display:none;
 	color:#edcb30;
-	width:150px;
-	margin-left:150px;
+	width:200px;
+	margin-left:200px;
 	margin-top:-31px;
 	padding:5px;
 	border-radius:20px;
@@ -72,7 +72,7 @@ body {
 .menu li ul li{
 	border:1px solid #000000;
 	display:block;
-	width:150px;
+	width:200px;
 	background-color:#345474;
 	color: #edcb30;
 	border-radius:20px;
@@ -133,7 +133,7 @@ a:active {
 .container {
 	display: grid;
 	grid-gap: 5px;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	grid-template-rows: repeat(2, 280px);
 }
 
@@ -160,7 +160,7 @@ th {
 	background-color: #345474;
 	color: #edcb30;
 	display: grid;
-	grid-gap: 20px;
+	grid-gap: 10px;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-template-rows: repeat(2, 300px);
 }
@@ -183,8 +183,6 @@ border-radius:20px;
 	<head>
 	
 	<title>Home - RBB Artesanato</title>
-     <!-- Aqui chamamos o nosso arquivo css externo 
-    <link rel="stylesheet" type="text/css"  href="estilo.css" />-->
 	
 	</head>
 	<!-- Início do corpo-->
@@ -194,7 +192,32 @@ border-radius:20px;
 		<div> <center> <img width="200px" height="200px" style="opacity:1" src="https://lh3.googleusercontent.com/d/13qL98Z1Mg4I0iiwpsZxadPDfifHLKW8K"/> </center> </div>
 		<div class="RBBArte"> <center> <b> RBB <i> Artesanato </i> </b> </center> </div>
 		<center>
-		<div> 
+			<div>
+				<img width="600px" height="100px" class="mySlidess" src="https://lh3.googleusercontent.com/d/1TC62BFyXeJDw-aewXjg-0ll9J3GpAFm7">
+				<img width="600px" height="100px" class="mySlidess" src="https://lh3.googleusercontent.com/d/1_C2Tt6Te7ngcgPG3cSCmzSTdAsnybC6c">
+				<img width="600px" height="100px" class="mySlidess" src="https://lh3.googleusercontent.com/d/1GyS5rDx2dq0etehrrIlwzAbEm_U2RFZi">
+				<img width="600px" height="100px" class="mySlidess" src="https://lh3.googleusercontent.com/d/1PsY1qckF0treTLj_ifvot3DAzZL1R2r3">
+				<img width="600px" height="100px" class="mySlidess" src="https://lh3.googleusercontent.com/d/1MZaFBcTeoJo1BoZgp4GZJeXiSTHDaNHG">
+				
+			<script>
+			var meuIndice = 0;
+			carrossel();
+			function carrossel() {
+				var a;
+				var b = document.getElementsByClassName("mySlidess");
+			for (a = 0; a < b.length; a++) {
+				b[a].style.display = "none";  
+			}
+			meuIndice++;
+			if (meuIndice > b.length) {meuIndice = 1}    
+				b[meuIndice-1].style.display = "block";  
+			setTimeout(carrossel, 3000); // Change image every 2 seconds
+			}
+			</script>
+			</div>
+		</center>
+		
+		<center>
 			<nav>
 			<ul class="menu">
 				<li><a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoInicio"><b>◗ INÍCIO ◖</b></a></li>
@@ -212,7 +235,32 @@ border-radius:20px;
 				<li><a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoFaleConosco"><b>◗ Fale conosco ◖</b></a> </td></li>
 			</ul>
 			</nav>
-		</div>
+		</center>
+		
+		<center>
+			<div>
+			<img width="600px" height="100px" class="mySlides" src="https://lh3.googleusercontent.com/d/1ETbM7hH3zYetlAcmvj4GthyC61ZiIHnV">
+			<img width="600px" height="100px" class="mySlides" src="https://lh3.googleusercontent.com/d/18hS_3YvrsTWjpMERqbQ1Qv55It3R6hSI">
+			<img width="600px" height="100px" class="mySlides" src="https://lh3.googleusercontent.com/d/1tKVEBLw6vTh7oAryNTAcHrbpErtz4sJb">
+			<img width="600px" height="100px" class="mySlides" src="https://lh3.googleusercontent.com/d/1UbPRL7URGoyGJmxPvZ3jLda-M22stvqb">
+			<img width="600px" height="100px" class="mySlides" src="https://lh3.googleusercontent.com/d/1kp-2JynNSDE0fXytyIUzPimSvkJtASD4">
+			
+			<script>
+			var myIndex = 0;
+			carousel();
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 3000); // Change image every 2 seconds
+			}
+			</script>
+			</div>
 		</center>
 		
 		<div class="aba"></div>
