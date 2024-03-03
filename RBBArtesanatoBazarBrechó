@@ -1,0 +1,1966 @@
+
+<style>
+<!-- Estilo CSS -->
+body {
+	background-color: #dce0e7;
+	font-family: times, helvetica, courier;
+	background-image: url('https://lh3.googleusercontent.com/d/1i9ARRpPHdQtIodNT0E7dlwyloOA39bd9');
+	background-attachment: fixed;
+}
+
+.RBBArte {
+   color: #345474;
+   font-size: 60px;
+   margin-top: -10px;
+}
+
+.menu {
+	color: #345474;
+	font-size: 20px;
+	list-style:none;
+	border:2px solid #000000;
+	background-color: #345474;
+	width:200px; height:200px;
+	padding:5px;
+	border-radius:20px;
+}
+
+.menu li{
+	position:relative;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+	background-color:#345474;
+	color: #edcb30;
+	width:200px;
+	float:left;
+	border-radius:20px;
+}
+
+.menu li  ul{
+	position:absolute;
+	background-color:#345474;
+	display:none;
+	color:#edcb30;
+	width:200px;
+	margin-left:200px;
+	margin-top:-31px;
+	padding:5px;
+	border-radius:20px;
+}
+
+.menu li a{
+	color:#edcb30;
+	text-decoration:none;
+	padding:5px;
+	display:block;
+}
+
+.menu li a:hover{
+	color:#345474;
+	background-color:#edcb30;
+	display:absolute;
+	border-radius:20px;
+}
+
+.menu li:hover ul, .menu li.over ul{
+	background-color:#345474;
+	color:#345474;
+	display:block;
+	border-radius:20px;
+}
+
+.menu li ul li{
+	border:1px solid #000000;
+	display:block;
+	width:200px;
+	background-color:#345474;
+	color: #edcb30;
+	border-radius:20px;
+}
+
+navy{
+	width:200px;
+	height:300px;
+}
+.contato {
+   color: #345474;
+   font-size: 14px;
+   margin-top: 50px;
+   margin-bottom: 40px;
+   border-radius:20px;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #edcb30;
+}
+a:hover {
+	background: #edcb30;
+	color: #345474;
+	padding-top:6px;
+	padding-bottom:6px;
+	border-radius:20px;
+}
+a:active {
+	text-decoration: none
+	color: #edcb30;
+}
+.contato {
+   color: #345474;
+   font-size: 14px;
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #edcb30;
+}
+a:hover {
+	background: #edcb30;
+	color: #345474;
+	padding-top:6px;
+	padding-bottom:6px;
+	border-radius:20px;
+}
+a:active {
+	text-decoration: none
+	color: #edcb30;
+}
+.container {
+   display: grid;
+   grid-gap: 5px;
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   grid-template-rows: repeat(2, 350px);
+}
+table, td, th, tfoot {
+   border:solid 2px #000000;
+   padding: 2px;
+   background-color: #345474;
+   color: #edcb30;
+   border-radius:20px;
+}
+th {
+   background-color:#345474;
+}
+.aba {
+   color: #345474;
+   font-size: 40px;
+   margin-bottom: 40px;
+}
+img{
+border-radius:20px;
+}
+<!-- Estilo CSS -->
+</style>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<title>Catálogo de Roupas</title>
+     <!-- Aqui chamamos o nosso arquivo css externo 
+    <link rel="stylesheet" type="text/css"  href="estilo.css" />-->
+
+</head>
+<!-- Início do corpo-->
+<body style="background-image: url('https://lh3.googleusercontent.com/d/1PKxP4y7Hjca2bBTyFU3ZiApPPpPuMVg2');">
+	<meta charset="utf-8">
+	<!-- Cabeça com Logo -->
+	<div> <center> <img width="200px" height="200px" style="opacity:1" src="https://lh3.googleusercontent.com/d/13qL98Z1Mg4I0iiwpsZxadPDfifHLKW8K"/> </center> </div>
+	<div class="RBBArte"> <center> <b> RBB <i> Artesanato </i> </b> </center> </div>
+	<center>
+		<div> 
+			<nav>
+			<ul class="menu">
+				<li><a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoInicio"><b>◗ INÍCIO ◖</b></a></li>
+				<li><a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoSobre"><b>◗ Sobre nós ◖</b></a></li>
+				<li><a href="#"><b>◗ Produtos ◖</b></a>
+					<ul>
+						<li> <a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoAcessorios"><b>◗ Acessórios ◖</b></a> </li>
+						<li> <a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoBolsas"><b>◗ Bolsas ◖</b></a> </li>
+						<li> <a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoFrasqueiras"><b>◗ Frasqueiras ◖</b></a></li>
+						<li><a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoNecessaires"><b>◗ Necessaires ◖</b></a> </li>
+						<li> <a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoTérmicas"><b>◗ Térmicas ◖</b></a> </li>
+					</ul>
+				</li>
+				<li><a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoBazarBrechó"><b>◗ Bazar/Brechó  ◖</b></a></li>
+				<li><a href="https://rbbartesanato.github.io/RBB/RBBArtesanatoFaleConosco"><b>◗ Fale conosco ◖</b></a> </td></li>
+			</ul>
+			</nav>
+		</div>
+	</center>
+	
+	<div class="aba"> <center> <b>Catálogo de Roupas </b> </center> </div>
+	<div class="container">
+
+		<!--caixa 043-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R043 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides043" src="https://lh3.googleusercontent.com/d/1yu8RbIb0btasroHYMp9L6NK3EofKjvxo"/> 
+						<img width="225px" height="300px" class="mySlides043" src="https://lh3.googleusercontent.com/d/1S_LnSEuX9zk_3o7iHiu1WTnm0sEEpXmo"/>
+						
+						<script>
+							var myIndex043 = 0;
+							carousel043();
+							function carousel043() {
+								var i043;
+								var x043 = document.getElementsByClassName("mySlides043");
+							for (i043 = 0; i043 < x043.length; i043++) {
+								x043[i043].style.display = "none";  
+							}
+							myIndex043++;
+							if (myIndex043 > x043.length) {myIndex043 = 1}    
+							x043[myIndex043-1].style.display = "block";  
+							setTimeout(carousel043, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Saia evasê com barras </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M e G </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R043"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 043-->
+
+		<!--caixa 042-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R042 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides042" src="https://lh3.googleusercontent.com/d/19xbMQES7pUKJgMm0OKjYqwn8kXTC1Y5o"/> 
+						<img width="225px" height="300px" class="mySlides042" src="https://lh3.googleusercontent.com/d/1sfgFmZ9DS2FU2Pv_RvjaT6vyvG4P9upt"/>
+						
+						<script>
+							var myIndex042 = 0;
+							carousel042();
+							function carousel042() {
+								var i042;
+								var x042 = document.getElementsByClassName("mySlides042");
+							for (i042 = 0; i042 < x042.length; i042++) {
+								x042[i042].style.display = "none";  
+							}
+							myIndex042++;
+							if (myIndex042 > x042.length) {myIndex042 = 1}    
+							x042[myIndex042-1].style.display = "block";  
+							setTimeout(carousel042, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Blusa "Mandalas" </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R042"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 042-->
+
+		<!--caixa 038-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R038 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides038" src="https://lh3.googleusercontent.com/d/1qJMs6o0ZfE6-ogPmJlWar29uhRsGGrTL"/> 
+						<img width="225px" height="300px" class="mySlides038" src="https://lh3.googleusercontent.com/d/15VXlbJjKE9lC8mCt0TNbju0A0lcKkhYZ"/>
+						
+						<script>
+							var myIndex038 = 0;
+							carousel038();
+							function carousel038() {
+								var i038;
+								var x038 = document.getElementsByClassName("mySlides038");
+							for (i038 = 0; i038 < x038.length; i038++) {
+								x038[i038].style.display = "none";  
+							}
+							myIndex038++;
+							if (myIndex038 > x038.length) {myIndex038 = 1}    
+							x038[myIndex038-1].style.display = "block";  
+							setTimeout(carousel038, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Blusa com barras </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M e G </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:5,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R038"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 038-->
+
+		<!--caixa 037-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R037 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides037" src="https://lh3.googleusercontent.com/d/16AUufcXUlqEt9GOeYsdX-tD3qXowecDZ"/> 
+						<img width="225px" height="300px" class="mySlides037" src="https://lh3.googleusercontent.com/d/1yKRjKQlcXk-G_uvZixhhKTGGhGamqzdM"/>
+						
+						<script>
+							var myIndex037 = 0;
+							carousel037();
+							function carousel037() {
+								var i037;
+								var x037 = document.getElementsByClassName("mySlides037");
+							for (i037 = 0; i037 < x037.length; i037++) {
+								x037[i037].style.display = "none";  
+							}
+							myIndex037++;
+							if (myIndex037 > x037.length) {myIndex037 = 1}    
+							x037[myIndex037-1].style.display = "block";  
+							setTimeout(carousel037, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Blusa alcinha listrada </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M e G </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:5,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R037"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 037-->
+
+		<!--caixa 036-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R036 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides036" src="https://lh3.googleusercontent.com/d/1sPkM6ryZJRTTRpUj4HxYDyxFFS7NdcTl"/> 
+						<img width="225px" height="300px" class="mySlides036" src="https://lh3.googleusercontent.com/d/1uLMWzSWWJSIu_dGdQwYyWuusbfBdJvWO"/>
+						
+						<script>
+							var myIndex036 = 0;
+							carousel036();
+							function carousel036() {
+								var i036;
+								var x036 = document.getElementsByClassName("mySlides036");
+							for (i036 = 0; i036 < x036.length; i036++) {
+								x036[i036].style.display = "none";  
+							}
+							myIndex036++;
+							if (myIndex036 > x036.length) {myIndex036 = 1}    
+							x036[myIndex036-1].style.display = "block";  
+							setTimeout(carousel036, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Vestido "Três Marias"</center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M e G </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:9,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R036"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 036-->
+
+		<!--caixa 032-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R032 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides032" src="https://lh3.googleusercontent.com/d/1hxLyp2Pa-1zstY6ZznSp761-LqIAEqA0"/> 
+						<img width="225px" height="300px" class="mySlides032" src="https://lh3.googleusercontent.com/d/1kYEh1ndvLZ0Uwd7TkAyEsak1l0Xl0WKM"/>
+						
+						<script>
+							var myIndex032 = 0;
+							carousel032();
+							function carousel032() {
+								var i032;
+								var x032 = document.getElementsByClassName("mySlides032");
+							for (i032 = 0; i032 < x032.length; i032++) {
+								x032[i032].style.display = "none";  
+							}
+							myIndex032++;
+							if (myIndex032 > x032.length) {myIndex032 = 1}    
+							x032[myIndex032-1].style.display = "block";  
+							setTimeout(carousel032, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Blusa torcida do Brasil </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R032"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 032-->
+
+		<!--caixa 031-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R031 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides031" src="https://lh3.googleusercontent.com/d/1akBLoLjV6PW289Yd2GztFxDE98BPRvtA"/> 
+						<img width="225px" height="300px" class="mySlides031" src="https://lh3.googleusercontent.com/d/1KiT2dgdr54xK1m8PPILaky7u0TXbGVzE"/>
+						
+						<script>
+							var myIndex031 = 0;
+							carousel031();
+							function carousel031() {
+								var i031;
+								var x031 = document.getElementsByClassName("mySlides031");
+							for (i031 = 0; i031 < x031.length; i031++) {
+								x031[i031].style.display = "none";  
+							}
+							myIndex031++;
+							if (myIndex031 > x031.length) {myIndex031 = 1}    
+							x031[myIndex031-1].style.display = "block";  
+							setTimeout(carousel031, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Regata cropped com amarração </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R031"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 031-->
+
+		<!--caixa 030-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R030 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides030" src="https://lh3.googleusercontent.com/d/1HniDCp0mFvWtEs-0b-wFfB_VpTG8vLxZ"/> 
+						<img width="225px" height="300px" class="mySlides030" src="https://lh3.googleusercontent.com/d/1IJK4I00ENkCSu3_o1HLxSDqCaZPqd-L4"/>
+						
+						<script>
+							var myIndex030 = 0;
+							carousel030();
+							function carousel030() {
+								var i030;
+								var x030 = document.getElementsByClassName("mySlides030");
+							for (i030 = 0; i030 < x030.length; i030++) {
+								x030[i030].style.display = "none";  
+							}
+							myIndex030++;
+							if (myIndex030 > x030.length) {myIndex030 = 1}    
+							x030[myIndex030-1].style.display = "block";  
+							setTimeout(carousel030, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> vestido slim canelado </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:14,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R030"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 030-->
+
+
+		<!--caixa 029-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R029 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides029" src="https://lh3.googleusercontent.com/d/190pEVln96yNvRwmnXq33SwQd1IeoYhbg"/> 
+						<img width="225px" height="300px" class="mySlides029" src="https://lh3.googleusercontent.com/d/12UuazYvRvPyQckjU3rAFFV62U9g3IVCC"/>
+						
+						<script>
+							var myIndex029 = 0;
+							carousel029();
+							function carousel029() {
+								var i029;
+								var x029 = document.getElementsByClassName("mySlides029");
+							for (i029 = 0; i029 < x029.length; i029++) {
+								x029[i029].style.display = "none";  
+							}
+							myIndex029++;
+							if (myIndex029 > x029.length) {myIndex029 = 1}    
+							x029[myIndex029-1].style.display = "block";  
+							setTimeout(carousel029, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Vestido slim canelado </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:14,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R029"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 029-->
+
+		<!--caixa 028-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R028 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides028" src="https://lh3.googleusercontent.com/d/190pEVln96yNvRwmnXq33SwQd1IeoYhbg"/> 
+						<img width="225px" height="300px" class="mySlides028" src="https://lh3.googleusercontent.com/d/12UuazYvRvPyQckjU3rAFFV62U9g3IVCC"/>
+						
+						<script>
+							var myIndex028 = 0;
+							carousel028();
+							function carousel028() {
+								var i028;
+								var x028 = document.getElementsByClassName("mySlides028");
+							for (i028 = 0; i028 < x028.length; i028++) {
+								x028[i028].style.display = "none";  
+							}
+							myIndex028++;
+							if (myIndex028 > x028.length) {myIndex028 = 1}    
+							x028[myIndex028-1].style.display = "block";  
+							setTimeout(carousel028, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Vestido slim canelado </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:14,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R028"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 028-->
+
+		<!--caixa 027-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R027 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides027" src="https://lh3.googleusercontent.com/d/1yLRVc-5xpeJIhXn75vsue-CP5G6W3tkp"/> 
+						<img width="225px" height="300px" class="mySlides027" src="https://lh3.googleusercontent.com/d/1M_XhnMFZ4DX94w3Cavma5ri8sUeU5Co5"/>
+						
+						<script>
+							var myIndex027 = 0;
+							carousel027();
+							function carousel027() {
+								var i027;
+								var x027 = document.getElementsByClassName("mySlides027");
+							for (i027 = 0; i027 < x027.length; i027++) {
+								x027[i027].style.display = "none";  
+							}
+							myIndex027++;
+							if (myIndex027 > x027.length) {myIndex027 = 1}    
+							x027[myIndex027-1].style.display = "block";  
+							setTimeout(carousel027, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Cardigan com amarração </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:5,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R027"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 027-->
+
+		<!--caixa 026-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R026 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides026" src="https://lh3.googleusercontent.com/d/14EMWlubrpzun-lOaHdtJ2Rhup9DMcuLU"/> 
+						<img width="225px" height="300px" class="mySlides026" src="https://lh3.googleusercontent.com/d/1wJ6hPCViVSdtVVG_Wbgbbi2csD5Ni8xr"/>
+						
+						<script>
+							var myIndex026 = 0;
+							carousel026();
+							function carousel026() {
+								var i026;
+								var x026 = document.getElementsByClassName("mySlides026");
+							for (i026 = 0; i026 < x026.length; i026++) {
+								x026[i026].style.display = "none";  
+							}
+							myIndex026++;
+							if (myIndex026 > x026.length) {myIndex026 = 1}    
+							x026[myIndex026-1].style.display = "block";  
+							setTimeout(carousel026, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Blusa de malha manga longa </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:9,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R026"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 026-->
+
+		<!--caixa 025-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R025 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides025" src="https://lh3.googleusercontent.com/d/1bTGqmfSVQ-zIEehUCjTvte9MsasbpsBN"/> 
+						<img width="225px" height="300px" class="mySlides025" src="https://lh3.googleusercontent.com/d/1dRWUfeG9P2ozRJJ5KPt8hjS_pYYj6YxK"/>
+						
+						<script>
+							var myIndex025 = 0;
+							carousel025();
+							function carousel025() {
+								var i025;
+								var x025 = document.getElementsByClassName("mySlides025");
+							for (i025 = 0; i025 < x025.length; i025++) {
+								x025[i025].style.display = "none";  
+							}
+							myIndex025++;
+							if (myIndex025 > x025.length) {myIndex025 = 1}    
+							x025[myIndex025-1].style.display = "block";  
+							setTimeout(carousel025, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Blusa de malha manga longa </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:6,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R025"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 025-->
+
+		<!--caixa 024-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R024 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides024" src="https://lh3.googleusercontent.com/d/1a1LXjA1B_zR_y0xPiU2dvfilNSFPDCvP"/> 
+						<img width="225px" height="300px" class="mySlides024" src="https://lh3.googleusercontent.com/d/13XFk9fTjzAVG9cX1xytUNypmY0bHBsVy"/>
+						
+						<script>
+							var myIndex024 = 0;
+							carousel024();
+							function carousel024() {
+								var i024;
+								var x024 = document.getElementsByClassName("mySlides024");
+							for (i024 = 0; i024 < x024.length; i024++) {
+								x024[i024].style.display = "none";  
+							}
+							myIndex024++;
+							if (myIndex024 > x024.length) {myIndex024 = 1}    
+							x024[myIndex024-1].style.display = "block";  
+							setTimeout(carousel024, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Vestido com amarração </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:9,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R024"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 024-->
+
+		<!--caixa 023-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R023 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides023" src="https://lh3.googleusercontent.com/d/18jenFKxADuJkNs6FiksKh1669W0j1Y32"/> 
+						<img width="225px" height="300px" class="mySlides023" src="https://lh3.googleusercontent.com/d/1nA9cyXek0vIz57wwGiRkzGcFNy8keunK"/>
+						
+						<script>
+							var myIndex023 = 0;
+							carousel023();
+							function carousel023() {
+								var i023;
+								var x023 = document.getElementsByClassName("mySlides023");
+							for (i023 = 0; i023 < x023.length; i023++) {
+								x023[i023].style.display = "none";  
+							}
+							myIndex023++;
+							if (myIndex023 > x023.length) {myIndex023 = 1}    
+							x023[myIndex023-1].style.display = "block";  
+							setTimeout(carousel023, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Macacão Pantalona </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:16,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R023"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 023-->
+
+		<!--caixa 022-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R022 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides022" src="https://lh3.googleusercontent.com/d/1G1kDOc0mmiWT3jdCTh5aIhcwyXtqSXUb"/> 
+						<img width="225px" height="300px" class="mySlides022" src="https://lh3.googleusercontent.com/d/1p-pVU-3jqNcZKa9MY6ZOiNBqJqPi-dlk"/>
+						<img width="225px" height="300px" class="mySlides022" src="https://lh3.googleusercontent.com/d/1zSMxlqzgTPB8rqLVeXzYZ4JSiqY9_oLp"/>
+						
+						<script>
+							var myIndex022 = 0;
+							carousel022();
+							function carousel022() {
+								var i022;
+								var x022 = document.getElementsByClassName("mySlides022");
+							for (i022 = 0; i022 < x022.length; i022++) {
+								x022[i022].style.display = "none";  
+							}
+							myIndex022++;
+							if (myIndex022 > x022.length) {myIndex022 = 1}    
+							x022[myIndex022-1].style.display = "block";  
+							setTimeout(carousel022, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Body gola alta </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:14,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R022"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 022-->
+
+		<!--caixa 021-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R021 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides021" src="https://lh3.googleusercontent.com/d/1usYUa2ZsPnfNo2nEZ4Dg1EqvABJgY5HH"/> 
+						<img width="225px" height="300px" class="mySlides021" src="https://lh3.googleusercontent.com/d/11X3E87mqU3RE2YYWtBGHZsdSiDjpCZhr"/>
+						
+						<script>
+							var myIndex021 = 0;
+							carousel021();
+							function carousel021() {
+								var i021;
+								var x021 = document.getElementsByClassName("mySlides021");
+							for (i021 = 0; i021 < x021.length; i021++) {
+								x021[i021].style.display = "none";  
+							}
+							myIndex021++;
+							if (myIndex021 > x021.length) {myIndex021 = 1}    
+							x021[myIndex021-1].style.display = "block";  
+							setTimeout(carousel021, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa polo Blinclass </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:8,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R021"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 021-->
+
+		<!--caixa 020-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R020 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides020" src="https://lh3.googleusercontent.com/d/1vrwFLXYlLayZ_AQtYDwtLC0ARkZ3mok4"/> 
+						<img width="225px" height="300px" class="mySlides020" src="https://lh3.googleusercontent.com/d/1oJdOes-6TqzSs0LUK98ixp62XHr36P_o"/>
+						
+						<script>
+							var myIndex020 = 0;
+							carousel020();
+							function carousel020() {
+								var i020;
+								var x020 = document.getElementsByClassName("mySlides020");
+							for (i020 = 0; i020 < x020.length; i020++) {
+								x020[i020].style.display = "none";  
+							}
+							myIndex020++;
+							if (myIndex020 > x020.length) {myIndex020 = 1}    
+							x020[myIndex020-1].style.display = "block";  
+							setTimeout(carousel020, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa havaiana florida </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R020"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 020-->
+
+		<!--caixa 019-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R019 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides019" src="https://lh3.googleusercontent.com/d/1H6LkrnLGDdqSqHyk0bdTkwDSFSQdxV-0"/> 
+						<img width="225px" height="300px" class="mySlides019" src="https://lh3.googleusercontent.com/d/1-CshL05_nNNsuTMSkKR0C2IFSlic4wsL"/>
+						
+						<script>
+							var myIndex019 = 0;
+							carousel019();
+							function carousel019() {
+								var i019;
+								var x019 = document.getElementsByClassName("mySlides019");
+							for (i019 = 0; i019 < x019.length; i019++) {
+								x019[i019].style.display = "none";  
+							}
+							myIndex019++;
+							if (myIndex019 > x019.length) {myIndex019 = 1}    
+							x019[myIndex019-1].style.display = "block";  
+							setTimeout(carousel019, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta regata "Nativo"</center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R019"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 019-->
+
+		<!--caixa 018-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R018 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides018" src="https://lh3.googleusercontent.com/d/1lK_c58CcGLb_bgY9110IigDVicIANmWq"/> 
+						<img width="225px" height="300px" class="mySlides018" src="https://lh3.googleusercontent.com/d/1UJafKodVsuyG7wfzoeF4vvbST_UJUXQo"/>
+						
+						<script>
+							var myIndex018 = 0;
+							carousel018();
+							function carousel018() {
+								var i018;
+								var x018 = document.getElementsByClassName("mySlides018");
+							for (i018 = 0; i018 < x018.length; i018++) {
+								x018[i018].style.display = "none";  
+							}
+							myIndex018++;
+							if (myIndex018 > x018.length) {myIndex018 = 1}    
+							x018[myIndex018-1].style.display = "block";  
+							setTimeout(carousel018, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta regata com listras </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P e M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R018"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 018-->
+
+		<!--caixa 017-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R017 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides017" src="https://lh3.googleusercontent.com/d/1srRAH4n1QAssDB852vjtGt5XpFeWU0DU"/> 
+						<img width="225px" height="300px" class="mySlides017" src="https://lh3.googleusercontent.com/d/1srRAH4n1QAssDB852vjtGt5XpFeWU0DU"/>
+						
+						<script>
+							var myIndex017 = 0;
+							carousel017();
+							function carousel017() {
+								var i017;
+								var x017 = document.getElementsByClassName("mySlides017");
+							for (i017 = 0; i017 < x017.length; i017++) {
+								x017[i017].style.display = "none";  
+							}
+							myIndex017++;
+							if (myIndex017 > x017.length) {myIndex017 = 1}    
+							x017[myIndex017-1].style.display = "block";  
+							setTimeout(carousel017, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta Quiksilver </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:5,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R017"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 017-->
+
+		<!--caixa 016-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R016 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides016" src="https://lh3.googleusercontent.com/d/1iNxkK_Px7KV9k4LhM0R02lG-Z5ogCoYL"/> 
+						<img width="225px" height="300px" class="mySlides016" src="https://lh3.googleusercontent.com/d/1fIhlZz-_rhplRpJFdbl4ShVd4fEVwU3a"/>
+						
+						<script>
+							var myIndex016 = 0;
+							carousel016();
+							function carousel016() {
+								var i016;
+								var x016 = document.getElementsByClassName("mySlides016");
+							for (i016 = 0; i016 < x016.length; i016++) {
+								x016[i016].style.display = "none";  
+							}
+							myIndex016++;
+							if (myIndex016 > x016.length) {myIndex016 = 1}    
+							x016[myIndex016-1].style.display = "block";  
+							setTimeout(carousel016, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta "Bandeiras" </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:6,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R016"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 016-->
+
+		<!--caixa 015-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R015 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides015" src="https://lh3.googleusercontent.com/d/1NR-GKxkeh_uTCZJAP-EPpyhhUMlcwsbi"/> 
+						<img width="225px" height="300px" class="mySlides015" src="https://lh3.googleusercontent.com/d/1NR-GKxkeh_uTCZJAP-EPpyhhUMlcwsbi"/>
+						
+						<script>
+							var myIndex015 = 0;
+							carousel015();
+							function carousel015() {
+								var i015;
+								var x015 = document.getElementsByClassName("mySlides015");
+							for (i015 = 0; i015 < x015.length; i015++) {
+								x015[i015].style.display = "none";  
+							}
+							myIndex015++;
+							if (myIndex015 > x015.length) {myIndex015 = 1}    
+							x015[myIndex015-1].style.display = "block";  
+							setTimeout(carousel015, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa "Pernalonga" </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M e G </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:6,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R015"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 015-->
+
+		<!--caixa 014-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R014 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides014" src="https://lh3.googleusercontent.com/d/1CQKjpjGVvHn0gm9Y49tB2tBvGfWpe_y9"/> 
+						<img width="225px" height="300px" class="mySlides014" src="https://lh3.googleusercontent.com/d/19e4H4oksv5AKhrf5RUgyGsyMxxj88LTJ"/>
+						
+						<script>
+							var myIndex014 = 0;
+							carousel014();
+							function carousel014() {
+								var i014;
+								var x014 = document.getElementsByClassName("mySlides014");
+							for (i014 = 0; i014 < x014.length; i014++) {
+								x014[i014].style.display = "none";  
+							}
+							myIndex014++;
+							if (myIndex014 > x014.length) {myIndex014 = 1}    
+							x014[myIndex014-1].style.display = "block";  
+							setTimeout(carousel014, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta "Hulk" </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M e G </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:7,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R014"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 014-->
+
+		<!--caixa 013-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R013 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides013" src="https://lh3.googleusercontent.com/d/10-YM2sZun9yKbTct5jfTkrdm8lLQK4or"/> 
+						<img width="225px" height="300px" class="mySlides013" src="https://lh3.googleusercontent.com/d/10-YM2sZun9yKbTct5jfTkrdm8lLQK4or"/>
+						
+						<script>
+							var myIndex013 = 0;
+							carousel013();
+							function carousel013() {
+								var i013;
+								var x013 = document.getElementsByClassName("mySlides013");
+							for (i013 = 0; i013 < x013.length; i013++) {
+								x013[i013].style.display = "none";  
+							}
+							myIndex013++;
+							if (myIndex013 > x013.length) {myIndex013 = 1}    
+							x013[myIndex013-1].style.display = "block";  
+							setTimeout(carousel013, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta "70 x 7" </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:6,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R013"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 013-->
+
+		<!--caixa 012-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R012 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides012" src="https://lh3.googleusercontent.com/d/1na9cvbRmi2bmReBh-2VsDditau499eE4"/> 
+						<img width="225px" height="300px" class="mySlides012" src="https://lh3.googleusercontent.com/d/1na9cvbRmi2bmReBh-2VsDditau499eE4"/>
+						
+						<script>
+							var myIndex012 = 0;
+							carousel012();
+							function carousel012() {
+								var i012;
+								var x012 = document.getElementsByClassName("mySlides012");
+							for (i012 = 0; i012 < x012.length; i012++) {
+								x012[i012].style.display = "none";  
+							}
+							myIndex012++;
+							if (myIndex012 > x012.length) {myIndex012 = 1}    
+							x012[myIndex012-1].style.display = "block";  
+							setTimeout(carousel012, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta Colombo </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:8,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R012"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 012-->
+
+		<!--caixa 011-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R011 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides011" src="https://lh3.googleusercontent.com/d/1DslivYSB4zRuv-4HIb-ZzI8N5vG7TONW"/> 
+						<img width="225px" height="300px" class="mySlides011" src="https://lh3.googleusercontent.com/d/1yDkwjSK1gyOnhM2tVqylAiv-sk1vHLuy"/>
+						
+						<script>
+							var myIndex011 = 0;
+							carousel011();
+							function carousel011() {
+								var i011;
+								var x011 = document.getElementsByClassName("mySlides011");
+							for (i011 = 0; i011 < x011.length; i011++) {
+								x011[i011].style.display = "none";  
+							}
+							myIndex011++;
+							if (myIndex011 > x011.length) {myIndex011 = 1}    
+							x011[myIndex011-1].style.display = "block";  
+							setTimeout(carousel011, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa de evento cultural </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R011"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 011-->
+
+		<!--caixa 010-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R010 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides010" src="https://lh3.googleusercontent.com/d/1qACii0dLITIY9_NQbOozitCDdlHL6RSX"/> 
+						<img width="225px" height="300px" class="mySlides010" src="https://lh3.googleusercontent.com/d/1qACii0dLITIY9_NQbOozitCDdlHL6RSX"/>
+						
+						<script>
+							var myIndex010 = 0;
+							carousel010();
+							function carousel010() {
+								var i010;
+								var x010 = document.getElementsByClassName("mySlides010");
+							for (i010 = 0; i010 < x010.length; i010++) {
+								x010[i010].style.display = "none";  
+							}
+							myIndex010++;
+							if (myIndex010 > x010.length) {myIndex010 = 1}    
+							x010[myIndex010-1].style.display = "block";  
+							setTimeout(carousel010, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa "Ele Vive" </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:6,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R010"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 010-->
+
+		<!--caixa 009-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R009 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides009" src="https://lh3.googleusercontent.com/d/1qLC8XhrCBxQRa-m9k9ebqxzlDR6sdteE"/> 
+						<img width="225px" height="300px" class="mySlides009" src="https://lh3.googleusercontent.com/d/1kkfHuhy85HbJ1yq5AfSoOrx1BaAIN8xH"/>
+						
+						<script>
+							var myIndex009 = 0;
+							carousel009();
+							function carousel009() {
+								var i009;
+								var x009 = document.getElementsByClassName("mySlides009");
+							for (i009 = 0; i009 < x009.length; i009++) {
+								x009[i009].style.display = "none";  
+							}
+							myIndex009++;
+							if (myIndex009 > x009.length) {myIndex009 = 1}    
+							x009[myIndex009-1].style.display = "block";  
+							setTimeout(carousel009, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta "Send Nudes"</center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R009"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 009-->
+
+		<!--caixa 008-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R008 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides008" src="https://lh3.googleusercontent.com/d/1ReisTImr69BgbOFbXhbFX1AweKz5S4qT"/> 
+						<img width="225px" height="300px" class="mySlides008" src="https://lh3.googleusercontent.com/d/1-oe4R3fVSlvanoYqVjfF2y0ECeMQNaQs"/>
+						
+						<script>
+							var myIndex008 = 0;
+							carousel008();
+							function carousel008() {
+								var i008;
+								var x008 = document.getElementsByClassName("mySlides008");
+							for (i008 = 0; i008 < x008.length; i008++) {
+								x008[i008].style.display = "none";  
+							}
+							myIndex008++;
+							if (myIndex008 > x008.length) {myIndex008 = 1}    
+							x008[myIndex008-1].style.display = "block";  
+							setTimeout(carousel008, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camiseta "Volcom"</center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:4,99 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R008"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 008-->
+
+		<!--caixa 007-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R007 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides007" src="https://lh3.googleusercontent.com/d/1CTrhIgXb6oeJwvPVRMlzsdic8JjUTo_E"/> 
+						<img width="225px" height="300px" class="mySlides007" src="https://lh3.googleusercontent.com/d/1nJvxiUA5vqEOvUZ02p9NG1KDM7IwrwV9"/>
+						
+						<script>
+							var myIndex007 = 0;
+							carousel007();
+							function carousel007() {
+								var i007;
+								var x007 = document.getElementsByClassName("mySlides007");
+							for (i007 = 0; i007 < x007.length; i007++) {
+								x007[i007].style.display = "none";  
+							}
+							myIndex007++;
+							if (myIndex007 > x007.length) {myIndex007 = 1}    
+							x007[myIndex007-1].style.display = "block";  
+							setTimeout(carousel007, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa social slim </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:12,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R007"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 007-->
+
+		<!--caixa 006-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R006 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides006" src="https://lh3.googleusercontent.com/d/15x1DLgEOlmv3qyq_l_FcU9TEyeSPGSQ4"/> 
+						<img width="225px" height="300px" class="mySlides006" src="https://lh3.googleusercontent.com/d/1LZSeRLLH9GsVJjPwVNGhZUJRq5PGe0gf"/>
+						
+						<script>
+							var myIndex006 = 0;
+							carousel006();
+							function carousel006() {
+								var i006;
+								var x006 = document.getElementsByClassName("mySlides006");
+							for (i006 = 0; i006 < x006.length; i006++) {
+								x006[i006].style.display = "none";  
+							}
+							myIndex006++;
+							if (myIndex006 > x006.length) {myIndex006 = 1}    
+							x006[myIndex006-1].style.display = "block";  
+							setTimeout(carousel006, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa social listrada </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:12,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R006"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 006-->
+
+		<!--caixa 005-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R005 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides005" src="https://lh3.googleusercontent.com/d/1y-5sXBh62cAlZuCP_7m70CEERz4hpP_q"/> 
+						<img width="225px" height="300px" class="mySlides005" src="https://lh3.googleusercontent.com/d/1QiSsBCyJIVhT9DQnnoY5UaysGX8Z5I4J"/>
+						
+						<script>
+							var myIndex005 = 0;
+							carousel005();
+							function carousel005() {
+								var i005;
+								var x005 = document.getElementsByClassName("mySlides005");
+							for (i005 = 0; i005 < x005.length; i005++) {
+								x005[i005].style.display = "none";  
+							}
+							myIndex005++;
+							if (myIndex005 > x005.length) {myIndex005 = 1}    
+							x005[myIndex005-1].style.display = "block";  
+							setTimeout(carousel005, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa social listrada </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:12,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R005"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 005-->
+
+		<!--caixa 004-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R004 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides004" src="https://lh3.googleusercontent.com/d/1eg4IME89-HpdL82uz0O51xJUNQT0WvVm"/> 
+						<img width="225px" height="300px" class="mySlides004" src="https://lh3.googleusercontent.com/d/1hkVYiH1nt4Zl8jr-D89MY5gML1ajG9v4"/>
+						
+						<script>
+							var myIndex004 = 0;
+							carousel004();
+							function carousel004() {
+								var i004;
+								var x004 = document.getElementsByClassName("mySlides004");
+							for (i004 = 0; i004 < x004.length; i004++) {
+								x004[i004].style.display = "none";  
+							}
+							myIndex004++;
+							if (myIndex004 > x004.length) {myIndex004 = 1}    
+							x004[myIndex004-1].style.display = "block";  
+							setTimeout(carousel004, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa xadrez manga curta</center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:9,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R004"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 004-->
+		
+		<!--caixa 003-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R003 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides003" src="https://lh3.googleusercontent.com/d/1Nc6wKo1slyEujC1G37M8jzd4YcXrjpAJ"/> 
+						<img width="225px" height="300px" class="mySlides003" src="https://lh3.googleusercontent.com/d/1AJWQbkFlf7nnToV_TdKoZEtYMn0nhcZj"/>
+						
+						<script>
+							var myIndex003 = 0;
+							carousel003();
+							function carousel003() {
+								var i003;
+								var x003 = document.getElementsByClassName("mySlides003");
+							for (i003 = 0; i003 < x003.length; i003++) {
+								x003[i003].style.display = "none";  
+							}
+							myIndex003++;
+							if (myIndex003 > x003.length) {myIndex003 = 1}    
+							x003[myIndex003-1].style.display = "block";  
+							setTimeout(carousel003, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa social xadrez </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M e G </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:12,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R003"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 003-->		
+		
+		<!--caixa 002-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R002 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides002" src="https://lh3.googleusercontent.com/d/1vBeLcyejQDxZsewrSVTlss_Xw4B3XOcA"/> 
+						<img width="225px" height="300px" class="mySlides002" src="https://lh3.googleusercontent.com/d/14gvzwzqZrgNkvLbog383zHJVHjj6f6Sf"/>
+						
+						<script>
+							var myIndex002 = 0;
+							carousel002();
+							function carousel002() {
+								var i002;
+								var x002 = document.getElementsByClassName("mySlides002");
+							for (i002 = 0; i002 < x002.length; i002++) {
+								x002[i002].style.display = "none";  
+							}
+							myIndex002++;
+							if (myIndex002 > x002.length) {myIndex002 = 1}    
+							x002[myIndex002-1].style.display = "block";  
+							setTimeout(carousel002, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa xadrez manga curta</center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> P </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:9,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R002"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 002-->		
+
+		<!--caixa 001-->		
+		<div>
+			<table>
+				<thead>
+					<tr> <th colspan="2"> <center> <b> REF: R001 </b> </center></th></tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+						
+						<img width="225px" height="300px" class="mySlides001" src="https://lh3.googleusercontent.com/d/1T98DQPW2N_HB1BnvvvdAT26zc0eKkeTq"/> 
+						<img width="225px" height="300px" class="mySlides001" src="https://lh3.googleusercontent.com/d/1NNDTanQ23yk3o2hMP3diMeTOUGmM_0We"/>
+						
+						<script>
+							var myIndex001 = 0;
+							carousel001();
+							function carousel001() {
+								var i001;
+								var x001 = document.getElementsByClassName("mySlides001");
+							for (i001 = 0; i001 < x001.length; i001++) {
+								x001[i001].style.display = "none";  
+							}
+							myIndex001++;
+							if (myIndex001 > x001.length) {myIndex001 = 1}    
+							x001[myIndex001-1].style.display = "block";  
+							setTimeout(carousel001, 3000); // Change image every 2 seconds
+							}
+							</script>						
+						</td>
+					</tr>
+					<tr>
+						<td> <center> <b> Descrição: </b> Camisa xadrez manga curta</center> </td>
+					</tr>
+					<tr>
+						<td> <center> <b> Veste: </b> M </center> </td>
+					</tr>
+					<tr>
+						<td> <center> <img width="10px" src="https://lh3.googleusercontent.com/d/1j2X1j7G3ak-CpAHzXcgMB7ubDaiIVNFH"/> <b> R$:9,90 </b> </center></td>
+					</tr>
+					<tr>
+						<td> <center> <b> <a href="//wa.me/5585987601691?text=Oi,%20me%20interessei%20pelo%20produto%20de%20código%20REF:%20R001"> COMPRAR </a> </b> </center></td>
+					</tr>   
+				</tbody>
+			</table>
+		</div>
+		<!--caixa 001-->
+		
+	</div>
+	<div class="contato"> 
+		<center>
+		<table height="210px" width="500px">
+			<thead>
+				<tr>
+					<th colspan="3"><b><center> Contato: </b> </center></th>
+				</tr>
+			</thead>
+			<tr>
+				<td><center><img width="15px" height="15px" src="https://lh3.googleusercontent.com/d/1R21jkOa_zHwDbVxaljgiZwZSGGa6yBIo"/> Instagram </center></td>
+				<td><center><img width="15px" height="15px" src="https://lh3.googleusercontent.com/d/1NQXW-24LfXvYhXaAKYuVqQ5Ki183z7xv"/> WhatsApp </center></td>
+				<td><center><img width="15px" height="15px" src="https://lh3.googleusercontent.com/d/1zDZ_YMgBYEF5GUCY_0eXfmt757UKI-j5"/> Email </center></td>
+			</tr>
+			<tr>
+				<td> <center><a href="https://www.instagram.com/rbbartesanato/"> @rbbartesanato </a></center> </td>
+				<td><center> <a href="https://api.whatsapp.com/send?phone=5585987601691"> (85) 987601691 </a></center> </td>
+				<td><center> <a href="mailto:rbbartesanato@gmail.com"> rbbartesanato@gmail.com </a></center> </td>
+			</tr>
+			<tr>
+				<td colspan="3"><center><img width="25px" height="25px" src="https://lh3.googleusercontent.com/d/135yuf0REkAX5GZ7qGDGkwYSpgf67j6Jy"/> <br>Rua Primeiro de Maio, Granja Portugal<br>Fortaleza-Ce, Brasil. CEP: 60541-312 <br></center></td>
+			</tr>
+			<tr>
+				<td colspan="3"><center><img width="500px" height="500px" src="https://lh3.googleusercontent.com/d/1MLsvgDYBbFBTtJ-qbCZmKOZNwdFLEKoU"/></center></td>
+			</tr>
+		</table>
+		</center>
+	</div>
+</body>
+</html>
